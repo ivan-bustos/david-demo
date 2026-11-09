@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glorbit Dragonfruit Yuzu Fizz (fictional soda concept)</title>
+  <meta name="description" content="Glorbit is a made-up sparkling soda concept: dragonfruit, yuzu and a pinch of sea salt in a can that thinks it is a tiny planet. Design demo only, not a real product.">
+  <meta name="theme-color" content="#1b0a33">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <p class="demo-banner"><strong>Design demo:</strong> Glorbit is a fictional soda, not made or sold anywhere.</p>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Glorbit, back to top">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+        <ellipse cx="20" cy="20" rx="19" ry="7" fill="none" stroke="#ffe14d" stroke-width="3" transform="rotate(-20 20 20)"/>
+        <circle cx="20" cy="20" r="11" fill="#ff2e93"/>
+        <circle cx="16" cy="16" r="3" fill="#fff6e6" opacity=".85"/>
+      </svg>
+      <span class="brand__name">Glorbit</span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-list">
+        <li><a href="#flavor">Flavor</a></li>
+        <li><a href="#can">The can</a></li>
+        <li><a href="#moments">Moments</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="eyebrow">Dragonfruit + Yuzu sparkling soda</p>
+        <h1 id="hero-title" class="hero__title">Glorbit<span class="hero__title-sub">A tiny planet of fizz.</span></h1>
+        <p class="hero__lede">Juicy pink dragonfruit, a zap of yuzu and a pinch of sea salt, all orbiting one very cold can. Crack it open and the bubbles do the rest.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="#flavor">Taste the orbit<span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="#can">Meet the can</a>
+        </div>
+      </div>
+
+      <div class="hero__art">
+        <svg class="orbit" viewBox="0 0 520 520" aria-hidden="true" focusable="false">
+          <ellipse cx="260" cy="270" rx="245" ry="88" fill="none" stroke="#ffe14d" stroke-width="6" stroke-dasharray="2 18" stroke-linecap="round" transform="rotate(-16 260 270)"/>
+          <ellipse cx="260" cy="270" rx="200" ry="62" fill="none" stroke="#4dffc3" stroke-width="3" opacity=".7" transform="rotate(12 260 270)"/>
+          <circle class="moon moon--a" cx="40" cy="300" r="16" fill="#ffe14d"/>
+          <circle class="moon moon--b" cx="470" cy="210" r="11" fill="#4dffc3"/>
+          <circle class="moon moon--c" cx="430" cy="380" r="7" fill="#ff2e93"/>
+        </svg>
+
+        <svg class="can" viewBox="0 0 240 440" role="img" aria-labelledby="can-title">
+          <title id="can-title">A glossy magenta Glorbit can with a yellow wavy label, a ringed-planet logo and cold condensation drops</title>
+          <defs>
+            <linearGradient id="g-body" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#9c0a52"/>
+              <stop offset=".18" stop-color="#ff2e93"/>
+              <stop offset=".34" stop-color="#ff8cc2"/>
+              <stop offset=".48" stop-color="#ff2e93"/>
+              <stop offset=".85" stop-color="#c3146d"/>
+              <stop offset="1" stop-color="#7a0841"/>
+            </linearGradient>
+            <linearGradient id="g-metal" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#8a8f9e"/>
+              <stop offset=".3" stop-color="#f4f5fa"/>
+              <stop offset=".55" stop-color="#b9bdc9"/>
+              <stop offset="1" stop-color="#6c7080"/>
+            </linearGradient>
+            <linearGradient id="g-label" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#d9b200"/>
+              <stop offset=".3" stop-color="#ffe14d"/>
+              <stop offset=".45" stop-color="#fff3a8"/>
+              <stop offset=".6" stop-color="#ffe14d"/>
+              <stop offset="1" stop-color="#c9a300"/>
+            </linearGradient>
+            <clipPath id="c-body"><rect x="30" y="48" width="180" height="356" rx="22"/></clipPath>
+          </defs>
+          <!-- shadow -->
+          <ellipse cx="120" cy="428" rx="92" ry="10" fill="#000" opacity=".35"/>
+          <!-- bottom rim -->
+          <path d="M38 396 Q120 432 202 396 L196 412 Q120 440 44 412 Z" fill="url(#g-metal)"/>
+          <!-- body -->
+          <rect x="30" y="48" width="180" height="356" rx="22" fill="url(#g-body)"/>
+          <g clip-path="url(#c-body)">
+            <!-- wavy label -->
+            <path d="M20 168 C60 146 90 186 130 166 S190 146 220 164 L220 310 C180 332 150 292 110 314 S50 332 20 312 Z" fill="url(#g-label)"/>
+            <!-- planet logo -->
+            <ellipse cx="120" cy="214" rx="62" ry="15" fill="none" stroke="#1b0a33" stroke-width="5" transform="rotate(-14 120 214)"/>
+            <circle cx="120" cy="214" r="30" fill="#1b0a33"/>
+            <circle cx="111" cy="205" r="8" fill="#ff2e93"/>
+            <circle cx="131" cy="224" r="4" fill="#4dffc3"/>
+            <path d="M58 214 A62 15 0 0 0 182 214" fill="none" stroke="#1b0a33" stroke-width="5" transform="rotate(-14 120 214)"/>
+            <text x="120" y="278" text-anchor="middle" class="can__word">GLORBIT</text>
+            <text x="120" y="300" text-anchor="middle" class="can__flavor">DRAGONFRUIT · YUZU</text>
+            <!-- seeds speckle, dragonfruit style -->
+            <g fill="#1b0a33" opacity=".55">
+              <ellipse cx="62" cy="96" rx="2.4" ry="4" transform="rotate(20 62 96)"/>
+              <ellipse cx="92" cy="122" rx="2.4" ry="4" transform="rotate(-30 92 122)"/>
+              <ellipse cx="150" cy="88" rx="2.4" ry="4" transform="rotate(40 150 88)"/>
+              <ellipse cx="178" cy="126" rx="2.4" ry="4" transform="rotate(-10 178 126)"/>
+              <ellipse cx="70" cy="356" rx="2.4" ry="4" transform="rotate(30 70 356)"/>
+              <ellipse cx="128" cy="370" rx="2.4" ry="4" transform="rotate(-20 128 370)"/>
+              <ellipse cx="172" cy="344" rx="2.4" ry="4" transform="rotate(10 172 344)"/>
+            </g>
+            <text x="120" y="340" text-anchor="middle" class="can__small">SPARKLING SODA</text>
+            <!-- sheen -->
+            <rect x="62" y="40" width="16" height="380" fill="#fff" opacity=".28"/>
+            <rect x="84" y="40" width="5" height="380" fill="#fff" opacity=".2"/>
+            <!-- condensation -->
+            <g fill="#fff" opacity=".7">
+              <ellipse cx="48" cy="140" rx="3" ry="4.5"/>
+              <ellipse cx="196" cy="110" rx="2.5" ry="4"/>
+              <ellipse cx="186" cy="250" rx="3.5" ry="5"/>
+              <ellipse cx="54" cy="262" rx="2.5" ry="3.5"/>
+              <ellipse cx="104" cy="352" rx="3" ry="4.5"/>
+              <ellipse cx="160" cy="384" rx="2.2" ry="3.4"/>
+              <ellipse cx="140" cy="132" rx="2" ry="3"/>
+            </g>
+          </g>
+          <!-- top neck + lid -->
+          <path d="M44 56 Q120 74 196 56 L188 30 Q120 44 52 30 Z" fill="url(#g-metal)"/>
+          <ellipse cx="120" cy="30" rx="68" ry="13" fill="url(#g-metal)"/>
+          <ellipse cx="120" cy="30" rx="60" ry="9.5" fill="#d7dae3"/>
+          <!-- tab -->
+          <rect x="104" y="22" width="34" height="13" rx="6.5" fill="#a8adba"/>
+          <rect x="114" y="25.5" width="14" height="6" rx="3" fill="#d7dae3"/>
+        </svg>
+
+        <div class="bubbles" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="flavor" class="flavor" aria-labelledby="flavor-title">
+      <p class="eyebrow eyebrow--dark">What’s in orbit</p>
+      <h2 id="flavor-title">Three flavors, one gravitational pull</h2>
+      <ul class="notes">
+        <li class="note note--pink">
+          <svg class="note__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <path d="M32 6 C46 14 56 26 54 40 C52 54 40 60 32 60 C24 60 12 54 10 40 C8 26 18 14 32 6 Z" fill="#ff2e93"/>
+            <path d="M32 6 L26 16 M32 6 L40 15 M32 6 L32 18" stroke="#2fbf71" stroke-width="4" stroke-linecap="round"/>
+            <g fill="#1b0a33"><circle cx="24" cy="34" r="2"/><circle cx="34" cy="28" r="2"/><circle cx="40" cy="40" r="2"/><circle cx="28" cy="46" r="2"/><circle cx="44" cy="30" r="1.6"/></g>
+          </svg>
+          <h3>Dragonfruit</h3>
+          <p>The juicy, berry-ish heart of the can. Bright pink, gently sweet, the kind of flavor that makes you look at the can twice.</p>
+        </li>
+        <li class="note note--yuzu">
+          <svg class="note__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <circle cx="32" cy="34" r="24" fill="#ffe14d"/>
+            <circle cx="32" cy="34" r="17" fill="#fff3a8"/>
+            <g stroke="#e0b800" stroke-width="3" stroke-linecap="round"><path d="M32 18 V50"/><path d="M16 34 H48"/><path d="M21 23 L43 45"/><path d="M43 23 L21 45"/></g>
+          </svg>
+          <h3>Yuzu</h3>
+          <p>A citrus zap somewhere between grapefruit and lime, landing right after the first sip like a little meteor.</p>
+        </li>
+        <li class="note note--mint">
+          <svg class="note__icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <g fill="#4dffc3"><circle cx="20" cy="40" r="10"/><circle cx="40" cy="22" r="7"/><circle cx="44" cy="46" r="5"/><circle cx="26" cy="16" r="3.5"/></g>
+            <g fill="#fff6e6" opacity=".8"><circle cx="17" cy="36" r="3"/><circle cx="38" cy="19" r="2"/></g>
+          </svg>
+          <h3>Sea-salt sparkle</h3>
+          <p>A pinch of salt and lively bubbles keep everything crisp, so the fruit tastes brighter and the finish stays clean.</p>
+        </li>
+      </ul>
+      <p class="fineprint">Flavor descriptions are creative copy for an imaginary drink, not a recipe, ingredient list or nutrition information.</p>
+    </section>
+
+    <section id="can" class="can-story" aria-labelledby="can-title-2">
+      <div class="can-story__copy">
+        <p class="eyebrow">Designed to be spotted</p>
+        <h2 id="can-title-2">A can that thinks it’s a planet</h2>
+        <ul class="ticks">
+          <li><strong>Hot-pink shell</strong> with dragonfruit-seed speckles, so it pops from across the fridge.</li>
+          <li><strong>A wavy yuzu-yellow band</strong> that wraps around like a planetary ring.</li>
+          <li><strong>The orbit logo</strong>: one dark little planet with two bubble moons.</li>
+        </ul>
+      </div>
+      <div class="lineup" aria-hidden="true">
+        <svg viewBox="0 0 360 220" focusable="false">
+          <g transform="translate(20 20) rotate(-8 50 90)">
+            <rect x="0" y="10" width="100" height="180" rx="14" fill="#ff2e93"/>
+            <path d="M0 70 C30 56 60 84 100 66 L100 140 C70 154 40 128 0 144 Z" fill="#ffe14d"/>
+            <circle cx="50" cy="104" r="16" fill="#1b0a33"/>
+            <ellipse cx="50" cy="10" rx="40" ry="8" fill="#d7dae3"/>
+          </g>
+          <g transform="translate(130 6)">
+            <rect x="0" y="10" width="100" height="196" rx="14" fill="#1b0a33" stroke="#ff2e93" stroke-width="4"/>
+            <path d="M0 76 C30 60 60 90 100 72 L100 148 C70 164 40 136 0 154 Z" fill="#ff2e93"/>
+            <circle cx="50" cy="112" r="16" fill="#ffe14d"/>
+            <ellipse cx="50" cy="10" rx="40" ry="8" fill="#d7dae3"/>
+          </g>
+          <g transform="translate(240 24) rotate(8 50 90)">
+            <rect x="0" y="10" width="100" height="180" rx="14" fill="#ffe14d"/>
+            <path d="M0 70 C30 56 60 84 100 66 L100 140 C70 154 40 128 0 144 Z" fill="#ff2e93"/>
+            <circle cx="50" cy="104" r="16" fill="#1b0a33"/>
+            <ellipse cx="50" cy="10" rx="40" ry="8" fill="#d7dae3"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="moments" class="moments" aria-labelledby="moments-title">
+      <p class="eyebrow eyebrow--dark">When to crack one</p>
+      <h2 id="moments-title">Made for small, fizzy moments</h2>
+      <ol class="moment-list">
+        <li><span class="moment__time" aria-hidden="true">01</span><h3>Picnic launch</h3><p>Straight from the cooler, extra cold, on a blanket in the sun.</p></li>
+        <li><span class="moment__time" aria-hidden="true">02</span><h3>Taco night</h3><p>Citrus and bubbles next to something spicy and crunchy.</p></li>
+        <li><span class="moment__time" aria-hidden="true">03</span><h3>The 3 p.m. slump</h3><p>A bright pink pause between meetings. No calendar invite needed.</p></li>
+      </ol>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-title">
+      <h2 id="about-title">About this demo</h2>
+      <p>Glorbit is an invented brand created to show a playful landing page. There is no real drink, company, store or delivery behind it.</p>
+      <ul class="about__list">
+        <li>Nothing here is for sale, and there’s no checkout or sign-up.</li>
+        <li>The flavor, can and moments are fiction, not health, nutrition or ingredient claims.</li>
+        <li>Any resemblance to a real soda brand is unintentional.</li>
+      </ul>
+      <a class="btn btn--primary" href="#top">Back to the top<span class="btn__arrow" aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Glorbit is a fictional concept demo. Not a real product. © Glorbit Imaginary Beverage Co., which also doesn’t exist.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>

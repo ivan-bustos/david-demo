@@ -1,0 +1,12 @@
+{
+  "name": "glorbit-soda-landing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fictional Glorbit soda concept landing page (static HTML/CSS, no dependencies).",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "browser-check": "node scripts/browser-check.mjs"
+  }
+}

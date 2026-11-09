@@ -1,0 +1,73 @@
+{
+  "url": "http://127.0.0.1:4173/ (local preview: npm run preview)",
+  "generatedBy": "scripts/browser-check.mjs",
+  "artifacts": [
+    {
+      "file": "screenshots/mobile-320x640-viewport.png",
+      "pngWidth": 320,
+      "pngHeight": 640,
+      "note": "320x640 CSS viewport in iframe, first screen"
+    },
+    {
+      "file": "screenshots/mobile-390x844-viewport.png",
+      "pngWidth": 390,
+      "pngHeight": 844,
+      "note": "390x844 CSS viewport in iframe, first screen"
+    },
+    {
+      "file": "screenshots/mobile-390x844-scroll-2.png",
+      "pngWidth": 390,
+      "pngHeight": 844,
+      "note": "390x844 iframe viewport scrolled to y=800 of 4277"
+    },
+    {
+      "file": "screenshots/mobile-390x844-scroll-3.png",
+      "pngWidth": 390,
+      "pngHeight": 844,
+      "note": "390x844 iframe viewport scrolled to y=1600 of 4277"
+    },
+    {
+      "file": "screenshots/mobile-390x844-scroll-4.png",
+      "pngWidth": 390,
+      "pngHeight": 844,
+      "note": "390x844 iframe viewport scrolled to y=2400 of 4277"
+    },
+    {
+      "file": "screenshots/mobile-390x844-scroll-5.png",
+      "pngWidth": 390,
+      "pngHeight": 844,
+      "note": "390x844 iframe viewport scrolled to y=3200 of 4277"
+    },
+    {
+      "file": "screenshots/mobile-390x844-scroll-6.png",
+      "pngWidth": 390,
+      "pngHeight": 844,
+      "note": "390x844 iframe viewport scrolled to y=3433 of 4277"
+    },
+    {
+      "file": "screenshots/tablet-768x1024-viewport.png",
+      "pngWidth": 768,
+      "pngHeight": 1024,
+      "note": "768x1024 CSS viewport in iframe, first screen"
+    },
+    {
+      "file": "screenshots/desktop-1440x900-viewport.png",
+      "pngWidth": 1440,
+      "pngHeight": 900,
+      "note": "1440x900 real window, first screen"
+    },
+    {
+      "file": "screenshots/desktop-1440-full.png",
+      "pngWidth": 1440,
+      "pngHeight": 3121,
+      "note": "1440px real window, full page"
+    },
+    {
+      "file": "screenshots/focus-cta-500x844-window.png",
+      "pngWidth": 500,
+      "pngHeight": 844,
+      "note": "500x844 real window, keyboard focus on primary CTA"
+    }
+  ],
+  "note": "Captured by scripts/browser-check.mjs in headless Firefox at the reviewed revision. mobile-390x844-scroll-1.png omitted: byte-identical to mobile-390x844-viewport.png."
+}
